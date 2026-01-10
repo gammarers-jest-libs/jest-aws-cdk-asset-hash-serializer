@@ -5,7 +5,7 @@ const project = new typescript.TypeScriptProject({
   defaultReleaseBranch: 'main',
   name: 'jest-aws-cdk-asset-hash-serializer',
   projenrcTs: true,
-  repository: 'https://github.com/gammarers-jest-libs/jest-aws-cdk-asset-filename-renamer.git',
+  repository: 'https://github.com/gammarers-jest-libs/jest-aws-cdk-asset-hash-serializer.git',
   keywords: ['aws', 'cdk', 'aws-cdk', 'jest', 'asset'],
   description: 'this package is aws cdk construct asset filename replacer(RandomString.zip to HASH.zip)',
   releaseToNpm: false,
